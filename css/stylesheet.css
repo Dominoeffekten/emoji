@@ -1,0 +1,66 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ----------------
+	Generel
+------------------*/
+body{
+    height: 100vh;
+    background: linear-gradient( to right, #7f53ac, #657ced );
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+	font-family: 'Poppins',sans-serif;
+}
+h1,h2{
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* ----------------
+	Emoji container
+------------------*/
+header{
+	grid-area: 1/5/1/1;
+}
+main{
+	grid-area: 2/1/2/5;
+}
+.container{
+	background-color: #ffffff;
+    padding: 15%;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	gap: 17px;
+}
+input[type="text"]{
+    width: 90px;
+    font-weight: 600;
+    color: #663399;
+	padding: 4% 0;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #202020;
+    font-size: 28px;
+}
+.container__btn{
+    width: 30%;
+    padding: 3% 0;
+    border-radius: 5px;
+    background-color: #663399;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.div__btn{
+    color: #663399;
+    padding: 1%;
+}
